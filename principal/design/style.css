@@ -6,10 +6,23 @@ background-size: cover;
 background-position: center;
 background-attachment: fixed;}
 
+main {height: 100vh;}
 
-div {background-color: white; width: 230px;}
+
+div {width: 230px; position: absolute; left: 50%; top: 50%;
+transform: translate(-50%, -50%);}
+
 div > img {width: 230px;}
 
 
-nav {text-align: right; width: 150px;}
-nav > a > img {width: 70px; border-radius: 50%; box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.664); margin-bottom: 20px;}
+iframe {position: absolute; left: 50%; top: 50%;
+transform: translate(-50%, -50%);
+width: 198px; height: 350px;
+background-color: rgba(0, 255, 255, 0.233);}
+
+
+nav {text-align: right; padding: 30px 20px 0px 0px;}
+
+nav > a > img {width: 65px; border-radius: 50%; box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.664); margin-bottom: 20px;}
+
+nav > a > img:hover {box-shadow: 2px 3px 5px rgba(0, 255, 255, 0.493);}
