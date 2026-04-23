@@ -20,7 +20,7 @@ transform: translate(-50%, -50%);
 width: 198px; height: 350px;}
 
 
-nav {text-align: right; padding: 30px 20px 0px 0px;}
+nav {text-align: right; padding: 30px 20px 0px 30px;}
 
 nav > a > img {width: 65px; border-radius: 50%; box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.664); margin-bottom: 20px;}
 
