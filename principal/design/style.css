@@ -1,0 +1,11 @@
+@charset "'uft-8'";
+* {margin: 0px; padding: 0px;}
+
+body {background-image: url(../../imagens/fundo-madeira.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;}
+
+#iphone {width: 230px;}
+
+div {background-color: white; margin: auto; width: 230px; margin-top: 50px;}
