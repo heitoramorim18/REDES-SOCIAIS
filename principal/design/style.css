@@ -4,9 +4,10 @@
 body {background-image: url(../../imagens/fundo-madeira.jpg);
 background-size: cover;
 background-position: center;
-background-attachment: fixed;}
+background-attachment: fixed;
+height: 100vh;}
 
-main {height: 100vh;}
+main {/* height: 100vh; */}
 
 
 div {width: 230px; position: absolute; left: 50%; top: 50%;
