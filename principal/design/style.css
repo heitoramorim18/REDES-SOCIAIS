@@ -10,7 +10,7 @@ height: 100vh;}
 main {/* height: 100vh; */}
 
 
-div {width: 230px; position: absolute; left: 50%; top: 50%;
+div {width: 230px; position: absolute; left: 50%; top: 50%; margin-right: 10px;
 transform: translate(-50%, -50%);}
 
 div > img {width: 230px;}
@@ -18,12 +18,13 @@ div > img {width: 230px;}
 
 iframe {position: absolute; left: 50%; top: 50%;
 transform: translate(-50%, -50%);
-width: 198px; height: 350px; margin-right: 30px;}
+width: 198px; height: 350px; margin-right: 30px;
+}
 
 
-nav {text-align: right; padding: 30px 20px 0px 0px;}
+nav {text-align: right; padding: 30px 25px 0px 0px;}
 
-nav > a > img {width: 65px; border-radius: 50%; box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.664); margin-bottom: 20px;}
+nav > a > img {width: 55px; border-radius: 50%; box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.664); margin-bottom: 20px;}
 
 a > img:hover {transform: translate(-3px, -3px)}
 
